@@ -51,4 +51,4 @@ jobs:
           LLNW_SHORTNAME: secrets.llnw_shortname
           LLNW_API_KEY: secrets.llnw_api_key
         run: |
-          ./target/edgefunc list-functions --shortname $LLNW_SHORTNAME --username $LLNW_USERNAME --control-key $LLNW_API_KEY
+          ./target/edgefunc list-functions --shortname "$LLNW_SHORTNAME" --username "$LLNW_USERNAME" --control-key "$LLNW_API_KEY"
